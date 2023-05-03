@@ -15,9 +15,12 @@ yarn
 yarn scripts:build
 cd -
 
-printf "Build SimpleSAML... \n"
-cd web/wp-content/themes/colby-college-theme/lib/simplesamlphp
+printf "Build Advancement Theme... \n"
+cd web/wp-content/themes/colby-advancement-theme
+composer install
 composer dump-autoload
+yarn
+yarn scripts:build
 cd -
 
 
