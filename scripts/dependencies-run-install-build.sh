@@ -15,6 +15,11 @@ yarn
 yarn scripts:build
 cd -
 
+printf "Build SimpleSAML... \n"
+cd web/wp-content/themes/colby-college-theme/lib/simplesamlphp
+composer dump-autoload
+cd -
+
 
 # npm install
 shopt -u extglob
