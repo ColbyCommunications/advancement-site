@@ -39,7 +39,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-advancement-theme",
-                "reference": "b97fb25eb939d2650115d774e8e7f501a160e514"
+                "reference": "c4e6a5d33c6b1ba0ff7563520e506862d4cdc97e"
             },
             "require": {
                 "php": ">=7.1"
@@ -56,7 +56,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2023-05-03T13:50:32+00:00"
+            "time": "2023-05-03T14:25:58+00:00"
         },
         {
             "name": "colbycommunications/colby-college-theme",
