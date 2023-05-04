@@ -20,7 +20,7 @@ cd web/wp-content/themes/colby-advancement-theme
 composer install
 composer dump-autoload
 yarn
-yarn build:platform
+yarn scripts:build
 cd -
 
 
