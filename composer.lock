@@ -208,7 +208,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-advancement-theme",
-                "reference": "d6a552ba1f177844d5c72a4f975542ee290f8dfe"
+                "reference": "ba38b07412bf03662d63d8a7607dd314ead57519"
             },
             "require": {
                 "php": ">=7.1"
@@ -225,7 +225,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2023-09-25T16:02:15+00:00"
+            "time": "2023-09-25T16:48:24+00:00"
         },
         {
             "name": "colbycommunications/colby-college-theme",
@@ -233,7 +233,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme",
-                "reference": "ec5455476e6287fc0fdcb6cb1dc7e17d63f9afab"
+                "reference": "549b2ce4fd6453e68d91064690e89d6e698c5165"
             },
             "require": {
                 "php": ">=7.1"
@@ -249,7 +249,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2023-09-09T22:10:16+00:00"
+            "time": "2023-09-25T16:47:02+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
