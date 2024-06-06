@@ -28,6 +28,10 @@
           to: '/darenorthward/'
           regexp: true
           code: 302
+        '^/give/?$': 
+          to: 'https://www.givecampus.com/l2ttfj'   
+          regexp: true
+          code: 301
 
 # *ALL* www.* requests should be redirected back to primary domain
 "https://www.{all}/":
