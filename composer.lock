@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "330d38e5a9a49aed53ec71d0e2615b37",
+    "content-hash": "793bd42374d024e3cda8ab324c8bc64a",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -35,16 +35,16 @@
         },
         {
             "name": "colbycommunications/capabilities-pro",
-            "version": "2.12.0",
+            "version": "2.13.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ColbyCommunications/capabilities-pro.git",
-                "reference": "27826de064cbfc615593a399a98d0b790cd6b623"
+                "reference": "d5473e219e73b3b97c85a904289360091b7d8ec4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.colby.edu/dist/colbycommunications/capabilities-pro/colbycommunications-capabilities-pro-27826de064cbfc615593a399a98d0b790cd6b623-zip-636692.zip",
-                "reference": "27826de064cbfc615593a399a98d0b790cd6b623"
+                "url": "https://satis.colby.edu/dist/colbycommunications/capabilities-pro/colbycommunications-capabilities-pro-d5473e219e73b3b97c85a904289360091b7d8ec4-zip-365307.zip",
+                "reference": "d5473e219e73b3b97c85a904289360091b7d8ec4"
             },
             "require": {
                 "php": ">=7.2.5"
@@ -144,7 +144,7 @@
                     "email": "help@publishpress.com"
                 }
             ],
-            "time": "2024-01-25T16:56:23+00:00"
+            "time": "2024-07-08T16:13:40+00:00"
         },
         {
             "name": "colbycommunications/colby-advancement-theme",
@@ -5548,15 +5548,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg",
-            "version": "3.2.1",
+            "version": "3.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
-                "reference": "tags/3.2.1"
+                "reference": "tags/3.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.3.2.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.3.2.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5620,15 +5620,15 @@
         },
         {
             "name": "wpackagist-plugin/header-footer",
-            "version": "3.2.7",
+            "version": "3.2.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/header-footer/",
-                "reference": "tags/3.2.7"
+                "reference": "tags/3.2.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/header-footer.3.2.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/header-footer.3.2.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5710,15 +5710,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-nested-pages",
-            "version": "3.2.7",
+            "version": "3.2.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-nested-pages/",
-                "reference": "tags/3.2.7"
+                "reference": "tags/3.2.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.2.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.2.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
