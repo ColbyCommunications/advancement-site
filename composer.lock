@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "22bc57ad7a3868e7e9dfbfae6d046bea",
+    "content-hash": "330d38e5a9a49aed53ec71d0e2615b37",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
-            "version": "6.2.4",
+            "version": "6.3.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ColbyCommunications/advanced-custom-fields-pro.git",
-                "reference": "0bf1fccf3eda9b8b1ce39068f55d4227976a4a4f"
+                "reference": "826147ab675cb25c368b57f8dfbe674e77d1691c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.colby.edu/dist/colbycommunications/advanced-custom-fields-pro/colbycommunications-advanced-custom-fields-pro-0bf1fccf3eda9b8b1ce39068f55d4227976a4a4f-zip-59f0cd.zip",
-                "reference": "0bf1fccf3eda9b8b1ce39068f55d4227976a4a4f"
+                "url": "https://satis.colby.edu/dist/colbycommunications/advanced-custom-fields-pro/colbycommunications-advanced-custom-fields-pro-826147ab675cb25c368b57f8dfbe674e77d1691c-zip-238581.zip",
+                "reference": "826147ab675cb25c368b57f8dfbe674e77d1691c"
             },
             "type": "wordpress-plugin",
             "authors": [
@@ -31,7 +31,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2023-12-01T15:41:15+00:00"
+            "time": "2024-07-08T15:43:33+00:00"
         },
         {
             "name": "colbycommunications/capabilities-pro",
@@ -223,16 +223,16 @@
         },
         {
             "name": "colbycommunications/gravityforms",
-            "version": "2.6.9",
+            "version": "2.8.13",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ColbyCommunications/gravityforms.git",
-                "reference": "5c7d6734f9c84b1ebf04678d07ce6596aa287abf"
+                "reference": "383498a580b7594161e8c9d947a3e1f4a315d1af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.colby.edu/dist/colbycommunications/gravityforms/colbycommunications-gravityforms-5c7d6734f9c84b1ebf04678d07ce6596aa287abf-zip-e161a5.zip",
-                "reference": "5c7d6734f9c84b1ebf04678d07ce6596aa287abf"
+                "url": "https://satis.colby.edu/dist/colbycommunications/gravityforms/colbycommunications-gravityforms-383498a580b7594161e8c9d947a3e1f4a315d1af-zip-961aff.zip",
+                "reference": "383498a580b7594161e8c9d947a3e1f4a315d1af"
             },
             "type": "wordpress-plugin",
             "authors": [
@@ -246,20 +246,20 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2023-01-16T20:20:31+00:00"
+            "time": "2024-07-03T17:51:32+00:00"
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "0c5ccfcfea312b5c5a190a21ac5cef93f74baf99"
+                "reference": "063d9aa8696582f5a41dffbbaf3c81024f0a604a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/0c5ccfcfea312b5c5a190a21ac5cef93f74baf99",
-                "reference": "0c5ccfcfea312b5c5a190a21ac5cef93f74baf99",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/063d9aa8696582f5a41dffbbaf3c81024f0a604a",
+                "reference": "063d9aa8696582f5a41dffbbaf3c81024f0a604a",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +269,7 @@
             },
             "require-dev": {
                 "phpstan/phpstan": "^1.10",
-                "psr/log": "^1.0",
+                "psr/log": "^1.0 || ^2.0 || ^3.0",
                 "symfony/phpunit-bridge": "^4.2 || ^5",
                 "symfony/process": "^4.0 || ^5.0 || ^6.0 || ^7.0"
             },
@@ -306,7 +306,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.5.0"
+                "source": "https://github.com/composer/ca-bundle/tree/1.5.1"
             },
             "funding": [
                 {
@@ -322,7 +322,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-15T14:00:32+00:00"
+            "time": "2024-07-08T15:28:20+00:00"
         },
         {
             "name": "composer/class-map-generator",
@@ -1301,16 +1301,16 @@
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.4.2",
+            "version": "6.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "00ea636cf89fd17daacbc3862f368a2782267825"
+                "reference": "be6edfa018053533267a16e73f6623b0fa27b2df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/00ea636cf89fd17daacbc3862f368a2782267825",
-                "reference": "00ea636cf89fd17daacbc3862f368a2782267825",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/be6edfa018053533267a16e73f6623b0fa27b2df",
+                "reference": "be6edfa018053533267a16e73f6623b0fa27b2df",
                 "shasum": ""
             },
             "require": {
@@ -1318,7 +1318,7 @@
                 "php": ">=7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.4.2"
+                "wordpress/core-implementation": "6.5.5"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1345,7 +1345,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2023-12-06T16:30:44+00:00"
+            "time": "2024-06-24T17:24:47+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -5566,15 +5566,15 @@
         },
         {
             "name": "wpackagist-plugin/cloudflare",
-            "version": "4.12.3",
+            "version": "4.12.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cloudflare/",
-                "reference": "tags/4.12.3"
+                "reference": "tags/4.12.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cloudflare.4.12.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/cloudflare.4.12.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5584,15 +5584,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-comments",
-            "version": "2.4.5",
+            "version": "2.4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-comments/",
-                "reference": "tags/2.4.5"
+                "reference": "tags/2.4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-comments.2.4.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.2.4.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5692,15 +5692,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "21.6",
+            "version": "23.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/21.6"
+                "reference": "tags/23.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.21.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.23.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5746,15 +5746,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-search-with-algolia",
-            "version": "2.7.0",
+            "version": "2.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-search-with-algolia/",
-                "reference": "tags/2.7.0"
+                "reference": "tags/2.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.7.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.8.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
