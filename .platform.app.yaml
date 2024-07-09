@@ -5,7 +5,7 @@
 name: app
 
 # The runtime the application uses.
-type: "php:8.0"
+type: "php:8.3"
 
 # Configuration of the build of the application.
 build:
@@ -61,4 +61,4 @@ variables:
     memory_limit: 256M
 
 # The configuration of scheduled execution.
-crons: !include project/platform/crons.yaml
+# crons: !include project/platform/crons.yaml
