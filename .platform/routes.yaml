@@ -32,6 +32,10 @@
         #   to: 'https://www.givecampus.com/l2ttfj'   
         #   regexp: true
         #   code: 301
+        '^/category/news/impact-stories/?$': 
+          to: '/impact-stories'   
+          regexp: true
+          code: 301
 
 # *ALL* www.* requests should be redirected back to primary domain
 "https://www.{all}/":
