@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "784c3967f4f02e612dee36a5a2d97e89",
+    "content-hash": "c4f3696dedae472ebeaba7ce7a1c7f1f",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -148,15 +148,16 @@
         },
         {
             "name": "colbycommunications/colby-advancement-theme",
-            "version": "dev-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-advancement-theme",
-                "reference": "c9e06fe447b2d096d9b0a45270d71e2731d07bbf"
+                "reference": "a8789bb302e470b56d9466eb4bd5ffb79eabcbc6"
             },
             "require": {
                 "php": ">=7.1"
             },
+            "default-branch": true,
             "type": "wordpress-theme",
             "authors": [
                 {
@@ -168,15 +169,15 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-02-21T14:53:58+00:00"
+            "time": "2025-03-25T17:26:31+00:00"
         },
         {
             "name": "colbycommunications/colby-college-theme",
-            "version": "3.0.1",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme",
-                "reference": "a1ff534311667d06595e6d90b2f81798be54a020"
+                "reference": "89ea38a7c4ea1d0f71ea21e4eccf48f7f1665bdc"
             },
             "require": {
                 "php": ">=7.1"
@@ -192,7 +193,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-02-04T22:01:04+00:00"
+            "time": "2025-03-25T15:15:58+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -326,16 +327,16 @@
         },
         {
             "name": "composer/class-map-generator",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/class-map-generator.git",
-                "reference": "ffe442c5974c44a9343e37a0abcb1cc37319f5b9"
+                "reference": "134b705ddb0025d397d8318a75825fe3c9d1da34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/ffe442c5974c44a9343e37a0abcb1cc37319f5b9",
-                "reference": "ffe442c5974c44a9343e37a0abcb1cc37319f5b9",
+                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/134b705ddb0025d397d8318a75825fe3c9d1da34",
+                "reference": "134b705ddb0025d397d8318a75825fe3c9d1da34",
                 "shasum": ""
             },
             "require": {
@@ -379,7 +380,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/class-map-generator/issues",
-                "source": "https://github.com/composer/class-map-generator/tree/1.6.0"
+                "source": "https://github.com/composer/class-map-generator/tree/1.6.1"
             },
             "funding": [
                 {
@@ -395,7 +396,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-02-05T10:05:34+00:00"
+            "time": "2025-03-24T13:50:44+00:00"
         },
         {
             "name": "composer/composer",
@@ -5749,24 +5750,6 @@
             "time": "2024-10-16T12:50:47+00:00"
         },
         {
-            "name": "wpackagist-plugin/advanced-gutenberg",
-            "version": "3.2.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
-                "reference": "tags/3.2.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.3.2.4.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-gutenberg/"
-        },
-        {
             "name": "wpackagist-plugin/cloudflare",
             "version": "4.12.8",
             "source": {
@@ -5801,6 +5784,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/disable-comments/"
+        },
+        {
+            "name": "wpackagist-plugin/disable-everything",
+            "version": "0.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-everything/",
+                "reference": "tags/0.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-everything.0.4.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-everything/"
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
