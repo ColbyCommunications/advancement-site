@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4f3696dedae472ebeaba7ce7a1c7f1f",
+    "content-hash": "ba4e5481d2f9d9b96a9ec86a9679473e",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -5748,6 +5748,24 @@
                 "source": "https://github.com/wp-cli/wp-config-transformer/tree/v1.4.1"
             },
             "time": "2024-10-16T12:50:47+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-gutenberg",
+            "version": "3.2.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
+                "reference": "tags/3.2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.3.2.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-gutenberg/"
         },
         {
             "name": "wpackagist-plugin/cloudflare",
