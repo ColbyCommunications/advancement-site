@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72ea4bcbe464126b998471a74a06184f",
+    "content-hash": "9c139140db536ecaf428b239280cb913",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -152,7 +152,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-advancement-theme",
-                "reference": "571e9c2c92ed9af9889765a6fd57d869cdcef8f7"
+                "reference": "760ac6ff45a2de43535748773cd6cfc795d6a57b"
             },
             "require": {
                 "php": ">=7.1"
@@ -168,15 +168,15 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-03-24T13:40:03+00:00"
+            "time": "2025-03-25T14:47:42+00:00"
         },
         {
             "name": "colbycommunications/colby-college-theme",
-            "version": "3.1.0",
+            "version": "3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme",
-                "reference": "abac309fe539a7609fde9218f5c90e71dc32992e"
+                "reference": "a0dd75ddb816674aa76cb26920618ba9e335bb5e"
             },
             "require": {
                 "php": ">=7.1"
@@ -192,7 +192,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-03-18T11:20:47+00:00"
+            "time": "2025-03-25T15:07:06+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -326,16 +326,16 @@
         },
         {
             "name": "composer/class-map-generator",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/class-map-generator.git",
-                "reference": "ffe442c5974c44a9343e37a0abcb1cc37319f5b9"
+                "reference": "134b705ddb0025d397d8318a75825fe3c9d1da34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/ffe442c5974c44a9343e37a0abcb1cc37319f5b9",
-                "reference": "ffe442c5974c44a9343e37a0abcb1cc37319f5b9",
+                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/134b705ddb0025d397d8318a75825fe3c9d1da34",
+                "reference": "134b705ddb0025d397d8318a75825fe3c9d1da34",
                 "shasum": ""
             },
             "require": {
@@ -379,7 +379,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/class-map-generator/issues",
-                "source": "https://github.com/composer/class-map-generator/tree/1.6.0"
+                "source": "https://github.com/composer/class-map-generator/tree/1.6.1"
             },
             "funding": [
                 {
@@ -395,7 +395,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-02-05T10:05:34+00:00"
+            "time": "2025-03-24T13:50:44+00:00"
         },
         {
             "name": "composer/composer",
