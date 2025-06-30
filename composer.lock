@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "91d167b3f2daded272321c0a384c84b7",
+    "content-hash": "d4e69b300ec5979a879255e34f6edc87",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -152,7 +152,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-advancement-theme",
-                "reference": "a8789bb302e470b56d9466eb4bd5ffb79eabcbc6"
+                "reference": "7144d761080255acb5c4ba9dac82c6fcfdeeebdf"
             },
             "require": {
                 "php": ">=7.1"
@@ -169,19 +169,20 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-03-25T17:26:31+00:00"
+            "time": "2025-04-18T14:33:17+00:00"
         },
         {
             "name": "colbycommunications/colby-college-theme",
-            "version": "3.2.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme",
-                "reference": "feb12f680e61580a35019fc1c4d8f9f621021303"
+                "reference": "a3b947db85ea4d20913cbe7e66f4a056fa548990"
             },
             "require": {
                 "php": ">=7.1"
             },
+            "default-branch": true,
             "type": "wordpress-theme",
             "authors": [
                 {
@@ -193,7 +194,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-04-03T16:14:45+00:00"
+            "time": "2025-04-18T18:02:10+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -5833,6 +5834,24 @@
             "time": "2024-10-16T12:50:47+00:00"
         },
         {
+            "name": "wpackagist-plugin/advanced-gutenberg",
+            "version": "3.2.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
+                "reference": "tags/3.2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.3.2.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-gutenberg/"
+        },
+        {
             "name": "wpackagist-plugin/cloudflare",
             "version": "4.12.8",
             "source": {
@@ -6035,6 +6054,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "colbycommunications/colby-college-theme": 20,
         "colbycommunications/colby-advancement-theme": 20
     },
     "prefer-stable": false,
