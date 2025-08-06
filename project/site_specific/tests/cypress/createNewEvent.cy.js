@@ -10,8 +10,8 @@ describe('Event Creation', () => {
     it('Creates a new page', () => {
         cy.visit('/wp/wp-admin/post-new.php?post_type=events');
         cy.get('.editor-post-title__input').type('My New Event');
-        cy.get('#dp1754500996644').type('August 6, 1970 1:00 pm');
-        cy.get('#dp1754500996645').type('August 6, 1970 2:00 pm');
+        cy.get('.acf-field-646157c578254 input[type="text"]').type('August 6, 1970 1:00 pm');
+        cy.get('.acf-field-6679a58545b3e input[type="text"]').type('August 6, 1970 2:00 pm');
         cy.get('.editor-post-publish-button__button').click();
         cy.wait(2000);
 
