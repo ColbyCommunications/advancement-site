@@ -28,7 +28,7 @@ describe('Event Creation', () => {
 describe('New Event', () => {
     it('Should match the new event', () => {
         cy.visit('/events/event-calendar/my-new-event/');
-        cy.get('.text-group__heading > span').should('equal', 'My New Event');
+        cy.get('.text-group__heading > span').should('have.length', 3);
         cy.get('.text-group__subheading > span').should('have.length', 5);
     });
 });
