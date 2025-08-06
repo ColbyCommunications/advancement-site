@@ -7,7 +7,7 @@ describe('Event Creation', () => {
         cy.get('#wp-submit').click();
     });
 
-    it('Creates a new page', () => {
+    it('Creates a new event', () => {
         cy.visit('/wp/wp-admin/post-new.php?post_type=events');
         cy.get('.editor-post-title__input').type('My New Event');
         cy.get('.acf-field-646157c578254 input[type="text"]').type('August 6, 1970 1:00 pm');
@@ -27,7 +27,7 @@ describe('Event Creation', () => {
 
 describe('New Event', () => {
     it('Should match the new event', () => {
-        cy.visit('events/event-calendar/fdsafdsa/');
+        cy.visit('/events/event-calendar/my-new-event/');
         cy.get('.text-group__heading > span').should('equal', 'My New Event');
         cy.get('.text-group__subheading > span').should('have.length', 5);
     });
@@ -35,7 +35,7 @@ describe('New Event', () => {
 
 describe('New Event Calendar', () => {
     it('Should match the new event', () => {
-        cy.visit('events/past-events/');
+        cy.visit('/events/past-events/');
         cy.get('article-grid grid > .article-grid__item:last-child h2').should(
             'equal',
             'My New Event'
