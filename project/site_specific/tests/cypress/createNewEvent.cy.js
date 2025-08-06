@@ -36,9 +36,12 @@ describe('New Event', () => {
 describe('New Event Calendar', () => {
     it('Should match the new event', () => {
         cy.visit('/events/past-events/');
-        cy.get('.article-grid .grid > .article-grid__item:last-child h2').should('have.length', 3);
+        cy.get('.article-grid .grid > .article-grid__item:last-child h2 > span').should(
+            'have.length',
+            3
+        );
         cy.get(
-            '.article-grid .grid > .article-grid__item:last-child .text-group__subheading'
+            '.article-grid .grid > .article-grid__item:last-child .text-group__subheading > span'
         ).should('have.length', 11);
     });
 });
