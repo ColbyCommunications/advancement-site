@@ -36,13 +36,12 @@ describe('New Event', () => {
 describe('New Event Calendar', () => {
     it('Should match the new event', () => {
         cy.visit('/events/past-events/');
-        cy.get('article-grid grid > .article-grid__item:last-child h2').should(
+        cy.get('.article-grid .grid > .article-grid__item:last-child h2').should(
             'equal',
             'My New Event'
         );
-        cy.get('article-grid grid > .article-grid__item:last-child .text-group__subheading').should(
-            'have.length',
-            11
-        );
+        cy.get(
+            '.article-grid .grid > .article-grid__item:last-child .text-group__subheading'
+        ).should('have.length', 11);
     });
 });
