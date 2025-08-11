@@ -18,12 +18,12 @@ let siteFull = `https://${site}`;
     };
 
     // DN Page
-    const testPage = await browser.newPage();
-    await testPage.goto(`${siteFull}/darenorthward/`);
+    const dnPage = await browser.newPage();
+    await dnPage.goto(`${siteFull}/darenorthward/`);
     await new Promise(function (resolve) {
         setTimeout(async function () {
-            await testPage.evaluate(scrollToBottom, scrollOptions);
-            await percySnapshot(testPage, 'Snapshot of test page');
+            await dnPage.evaluate(scrollToBottom, scrollOptions);
+            await percySnapshot(dnPage, 'Snapshot of DN page');
             resolve();
         }, 3000);
     });
