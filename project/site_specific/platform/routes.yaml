@@ -1,0 +1,22 @@
+'^/wp-admin$':
+  to: "/wp/wp-admin/"
+  regexp: true
+'^/wp-admin/(.*)':
+  to: "/wp/wp-admin/$1"
+  regexp: true
+'^/colby-impact$':
+  to: '/darenorthward/'
+  regexp: true
+  code: 302
+'^/colby-impact/(.*)':
+  to: '/darenorthward/'
+  regexp: true
+  code: 302
+'^/give/?$': 
+  to: 'https://give.colby.edu/hail-colby-hail-25'   
+  regexp: true
+  code: 302
+'^/category/news/impact-stories/?$': 
+  to: '/impact-stories'   
+  regexp: true
+  code: 301
