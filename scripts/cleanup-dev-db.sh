@@ -8,5 +8,5 @@ if [ "${PLATFORM_BRANCH}" != master ]; then
   wp search-replace "https://${PRIMARY_DOMAIN}/" "${DEV_HOSTNAME}" --all-tables
 
   echo "Publishing Test Page"
-  wp post update ${TEST_PAGE} --post_status=publish
+  wp post update "${TEST_PAGE}" --post_status=publish
 fi
