@@ -15,6 +15,14 @@ yarn
 yarn scripts:build
 cd -
 
+printf "Build Advancement Theme... \n"
+cd web/wp-content/themes/colby-advancement-theme
+composer install
+composer dump-autoload
+yarn
+yarn scripts:build
+cd -
+
 
 # npm install
 shopt -u extglob
