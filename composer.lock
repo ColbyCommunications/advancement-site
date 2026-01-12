@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1159657c01822f3ffbe93220a4f5505a",
+    "content-hash": "3f438d3bf6f0646045252ce24f657ad2",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -179,14 +179,15 @@
         },
         {
             "name": "colbycommunications/colby-college-theme",
-            "version": "dev-dev",
+            "version": "dev-add-logos-to-customize",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme",
-                "reference": "05e6e09bdcfccd49bd9903ebeebf07e0260a89be"
+                "reference": "ea855b981e77df41ac53f7ab04fa8ed7d443ff61"
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.1",
+                "timber/timber": "2.3.1"
             },
             "type": "wordpress-theme",
             "authors": [
@@ -199,7 +200,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-12-04T16:47:34+00:00"
+            "time": "2025-12-04T20:25:14+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -6096,6 +6097,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
+        },
+        {
+            "name": "wpackagist-plugin/tinymce-advanced",
+            "version": "5.9.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tinymce-advanced/",
+                "reference": "tags/5.9.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.5.9.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
         },
         {
             "name": "wpackagist-plugin/user-switching",
