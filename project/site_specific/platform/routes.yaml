@@ -12,10 +12,6 @@
   to: '/darenorthward/'
   regexp: true
   code: 302
-'^/give/?$':
-  to: 'https://give.colby.edu/true-blue-26/?a=12255139'
-  regexp: true
-  code: 302
 '^/category/news/impact-stories/?$': 
   to: '/impact-stories'   
   regexp: true
