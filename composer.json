@@ -18,7 +18,7 @@
         "colbycommunications/colby-ticket": "^1.0.0",
         "wpackagist-plugin/wp-search-with-algolia": "2.11.1",
         "vlucas/phpdotenv": "^5.4",
-        "colbycommunications/colby-college-theme": "3.8.2",
+        "colbycommunications/colby-college-theme": "dev-accessibility-2026",
         "timber/timber": "2.3.1",
         "wpackagist-plugin/regenerate-thumbnails": "3.1.6",
         "wpackagist-plugin/disable-comments": "2.6.1",
@@ -28,7 +28,7 @@
         "colbycommunications/presspermit-pro": "4.3.2",
         "wpackagist-plugin/advanced-gutenberg": "3.6.2",
         "wpackagist-plugin/tinymce-advanced": "5.9.2",
-        "colbycommunications/colby-advancement-theme": "dev-master"
+        "colbycommunications/colby-advancement-theme": "dev-accessibility-2026"
     },
     "authors": [
         {
