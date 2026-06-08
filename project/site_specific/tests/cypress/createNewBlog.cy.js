@@ -9,7 +9,14 @@ describe('Blog Creation', () => {
 
     it('Creates a new post', () => {
         cy.visit('/wp/wp-admin/post-new.php');
-        cy.get('.editor-post-title__input').type('My New Post');
+        cy.get('iframe[name="editor-canvas"]') // 1. Target by attribute name, NOT id #
+        .its('0.contentDocument.body') // 2. Access the iframe body
+        .should('not.be.empty') // 3. Ensure the blob-loaded body isn't empty
+        .then(cy.wrap) // 4. Wrap body element 
+        .find('.editor-post-title__input', { timeout: 15000 }) // 5. Add safety timeout for Gutenberg
+        .should('be.visible')
+        .type('My New Post');
+
         cy.get('.editor-post-publish-button__button').click();
         cy.wait(2000);
 
