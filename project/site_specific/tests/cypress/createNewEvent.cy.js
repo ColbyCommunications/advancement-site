@@ -9,7 +9,14 @@ describe('Event Creation', () => {
 
     it('Creates a new event', () => {
         cy.visit('/wp/wp-admin/post-new.php?post_type=events');
-        cy.get('.editor-post-title__input').type('My New Event');
+        cy.get('iframe[name="editor-canvas"]') // 1. Target by attribute name, NOT id #
+        .its('0.contentDocument.body') // 2. Access the iframe body
+        .should('not.be.empty') // 3. Ensure the blob-loaded body isn't empty
+        .then(cy.wrap) // 4. Wrap body element 
+        .find('.editor-post-title__input', { timeout: 15000 }) // 5. Add safety timeout for Gutenberg
+        .should('be.visible')
+        .type('My New Event');
+        
         cy.get('.acf-field-646157c578254 input[type="text"]').type('August 6, 1970 1:00 pm');
         cy.get('.acf-field-6679a58545b3e input[type="text"]').type('August 6, 1970 2:00 pm');
         cy.get('.editor-post-publish-button__button').click();
