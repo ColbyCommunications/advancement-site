@@ -65,3 +65,11 @@
   scripts: true
   index:
     - index.php
+
+"/_healthcheck":
+  root: '_healthcheck'
+  allow: true
+  scripts: false
+  expires: -1
+  index:
+    - index.html
