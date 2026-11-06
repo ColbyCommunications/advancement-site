@@ -28,7 +28,7 @@
         "colbycommunications/presspermit-pro": "4.9.1",
         "wpackagist-plugin/advanced-gutenberg": "3.7.6",
         "wpackagist-plugin/tinymce-advanced": "5.10.1",
-        "colbycommunications/colby-college-theme-inertia": "1.0.21",
+        "colbycommunications/colby-college-theme-inertia": "dev-arts-jl",
         "colbycommunications/colby-advancement-theme": "dev-master"
     },
     "authors": [

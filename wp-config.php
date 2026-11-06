@@ -148,6 +148,8 @@ if (false !== $strRelationships = getenv('PLATFORM_RELATIONSHIPS')) {
     }
 }
 
+define( 'PRIMARY_DOMAIN', 'alumni.colby.edu' );
+
 // Define wp-content directory outside of WordPress core directory
 define('WP_HOME', $site_scheme . '://' . $site_host);
 define('WP_SITEURL', WP_HOME . '/wp');

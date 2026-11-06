@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b62860e3e8cdae82bcccbbebf2c40beb",
+    "content-hash": "4a56394242b58f0bd50cb1c13fa7c3b3",
     "packages": [
         {
             "name": "boxybird/inertia-wordpress",
@@ -188,11 +188,11 @@
         },
         {
             "name": "colbycommunications/colby-college-theme-inertia",
-            "version": "1.0.21",
+            "version": "dev-arts-jl",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme-inertia",
-                "reference": "f21c51b3a6c8a8fbf5963c36b837c414d6c518fa"
+                "reference": "089b664ebc14a92bbe250ec8a93905d97c54c0ad"
             },
             "require": {
                 "boxybird/inertia-wordpress": "^0.5.6",
@@ -210,7 +210,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2026-09-14T15:07:07+00:00"
+            "time": "2026-10-23T11:19:18+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -6318,7 +6318,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "colbycommunications/colby-advancement-theme": 20
+        "colbycommunications/colby-advancement-theme": 20,
+        "colbycommunications/colby-college-theme-inertia": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
