@@ -192,7 +192,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme-inertia",
-                "reference": "1252cce4a9796256c6a400d323b293fd19000f9f"
+                "reference": "f47b52232258f477144568528ad5da3dd58b5dd0"
             },
             "require": {
                 "boxybird/inertia-wordpress": "^0.5.6",
@@ -210,7 +210,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2026-11-17T21:02:25+00:00"
+            "time": "2026-11-18T14:31:29+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -1127,16 +1127,16 @@
         },
         {
             "name": "gettext/gettext",
-            "version": "v4.8.12",
+            "version": "v4.8.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-gettext/Gettext.git",
-                "reference": "11af89ee6c087db3cf09ce2111a150bca5c46e12"
+                "reference": "d5b707149f6cf056b375ad50d2d0224102038ce6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-gettext/Gettext/zipball/11af89ee6c087db3cf09ce2111a150bca5c46e12",
-                "reference": "11af89ee6c087db3cf09ce2111a150bca5c46e12",
+                "url": "https://api.github.com/repos/php-gettext/Gettext/zipball/d5b707149f6cf056b375ad50d2d0224102038ce6",
+                "reference": "d5b707149f6cf056b375ad50d2d0224102038ce6",
                 "shasum": ""
             },
             "require": {
@@ -1188,7 +1188,7 @@
             "support": {
                 "email": "oom@oscarotero.com",
                 "issues": "https://github.com/oscarotero/Gettext/issues",
-                "source": "https://github.com/php-gettext/Gettext/tree/v4.8.12"
+                "source": "https://github.com/php-gettext/Gettext/tree/v4.8.13"
             },
             "funding": [
                 {
@@ -1204,7 +1204,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2024-05-18T10:25:07+00:00"
+            "time": "2026-11-18T12:39:25+00:00"
         },
         {
             "name": "gettext/languages",
@@ -5950,16 +5950,16 @@
         },
         {
             "name": "wp-cli/wp-config-transformer",
-            "version": "v1.4.7",
+            "version": "v1.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-config-transformer.git",
-                "reference": "dc99e9eadacd6b9dd091056a98b0868b69a48a28"
+                "reference": "9627eacc7e8c78f31c70b1fbf2507c3e539ceac3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-config-transformer/zipball/dc99e9eadacd6b9dd091056a98b0868b69a48a28",
-                "reference": "dc99e9eadacd6b9dd091056a98b0868b69a48a28",
+                "url": "https://api.github.com/repos/wp-cli/wp-config-transformer/zipball/9627eacc7e8c78f31c70b1fbf2507c3e539ceac3",
+                "reference": "9627eacc7e8c78f31c70b1fbf2507c3e539ceac3",
                 "shasum": ""
             },
             "require": {
@@ -5993,9 +5993,9 @@
             "homepage": "https://github.com/wp-cli/wp-config-transformer",
             "support": {
                 "issues": "https://github.com/wp-cli/wp-config-transformer/issues",
-                "source": "https://github.com/wp-cli/wp-config-transformer/tree/v1.4.7"
+                "source": "https://github.com/wp-cli/wp-config-transformer/tree/v1.4.8"
             },
-            "time": "2026-10-06T06:18:26+00:00"
+            "time": "2026-11-18T09:05:30+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg",
